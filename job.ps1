@@ -1,2 +1,2 @@
 ﻿#gather all services
-Get-Service | Export-Csv -Path "c:\temp\hotfix.csv" -NoTypeInformation 
+Get-hotfix | Export-Csv -Path "c:\temp\hotfix.csv" -NoTypeInformation 
